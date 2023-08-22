@@ -56,26 +56,26 @@ function App() {
           <div className='home__container container grid'>
             <div className='home__data'>
               <h3 className='home__subtitle'>
-                Welcome To Travel
+                Bienvenido a Travel
               </h3>
 
               <h1 className="home__title">
-                Explore <br />
-                The World
+                Explora <br />
+                El Mundo
               </h1>
 
               <p className='home__description'>
-                Live the trips exploring the world, discover paradises, islands, mountains and much more, get your trip now.
+                Vive los viajes explorando el mundo, descubre paraísos, islas, montañas y mucho más, consigue ya tu viaje.
               </p>
 
               <a className='button' href='#'>
-                Start Your Journey <i className='ri-arrow-right-line'></i>
+                Comienza tu Viaje <i className='ri-arrow-right-line'></i>
               </a>
             </div>
 
             <div className='home__cards grid'>
               {home_cards.map((card, i)=> (
-                <HomeCard key={card.title} img={card.img} title={card.title} delay={i*200} animation="fade-down" />
+                <HomeCard key={card.title} img={card.img} title={card.title} delay={200} animation="fade-up" />
               ))}
             </div>
           </div>

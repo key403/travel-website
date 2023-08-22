@@ -14,12 +14,12 @@ const Explore = () => {
         <div className="explore__content container grid">
           <div className="explore__data">
             <h2 className="section__title">
-              Explore The <br />
-              Best Paradises
+              Explora Los <br />
+              Mejores Paraísos
             </h2>
 
             <p className="explore__description">
-              Exploring paradises such as islands and valleys when traveling the worl is one of the greatest experiences when you travel, it offers you harmony and peace and you can enjoy it with great comfort.
+              Explorar paraísos como islas y valles al recorrer el mundo es una de las mayores experiencias cuando viajas, te ofrece armonía y paz y puedes disfrutarlo con gran comodidad.
             </p>
           </div>
 

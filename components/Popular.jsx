@@ -6,8 +6,8 @@ const Popular = () => {
   return (
     <section className="popular section" id="Popular">
       <h2 className="section__title">
-        Enjoy The Beauty <br />
-        Of The World
+        Disfrute de la belleza  <br />
+        del Mundo
       </h2>
 
       <div className="popular__container container grid">

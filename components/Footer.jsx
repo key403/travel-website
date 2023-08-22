@@ -10,8 +10,8 @@ const Footer = () => {
             <a href="#" className="footer__logo">Travel</a>
 
             <p className="footer__description">
-              Travel with us and explore <br />
-              the world without limits.
+              Viaje con nosotros y explore <br />
+              el mundo sin límites.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           <span className="footer__copy">
-            &#169; All Rights Reserved
+            &#169; Todos los derechos reservados
           </span>
         </div>
       </div>

@@ -7,16 +7,16 @@ const About = () => {
       <div className="about__container container grid">
         <div className="about__data"> 
           <h2 className="section__title">
-            Learn More <br />
-            About Travel
+            Más Información <br />
+            Acerca de Travel
           </h2>
 
           <p className="about__description">
-            All the trips around the world are a great pleasure and happiness for anyone, enjoy the sights when you travel the world. Travel safely and without worries, get your trip and explore the paradises of the world.
+            Todos los viajes alrededor del mundo son un gran placer y felicidad para cualquiera, disfruta de las vistas cuando viajas por el mundo. Viaja seguro y sin preocupaciones, consigue tu viaje y explora los paraísos del mundo.
           </p>
 
           <a href="#" className="button">
-            Explore Travel <i className="ri-arrow-right-line"></i>
+            Explora Travel <i className="ri-arrow-right-line"></i>
           </a>
         </div>
 

@@ -10,9 +10,9 @@ import popular3 from "../src/assets/img/popular-lake.jpg"
 
 export const header_links = [
   "Home", 
-  "About",
+  "Acerca de",
   "Popular",
-  "Explore"
+  "Explorar"
 ]
 
 export const home_cards = [
@@ -54,35 +54,35 @@ export const popular_locations = [
 
 export const footer_links = [
   {
-    title: "About",
+    title: "Acerca de",
     links: [
-      "About Us",
-      "Features",
-      "News & Blog",
+      "Sobre Nosotros",
+      "Características",
+      "Noticias y blog",
     ]
   },
   {
-    title: "Company",
+    title: "Empresa",
     links: [
       "FAQs",
-      "History",
-      "Testimonials",
+      "Historia",
+      "Testimonios",
     ]
   },
   {
-    title: "Contact",
+    title: "Contacto",
     links: [
-      "Call Center",
-      "Support Center",
-      "Contatct Us",
+      "Centro de atención",
+      "Centro de asistencia",
+      "Contáctanos",
     ]
   },
   {
-    title: "Support",
+    title: "Ayuda",
     links: [
-      "Privacy Policy",
-      "Term & Services",
-      "Payments",
+      "Política de privacidad",
+      "Términos y servicios",
+      "Metodos de Pago",
     ]
   },
 ]
