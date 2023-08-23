@@ -9,10 +9,22 @@ import popular3 from "../src/assets/img/popular-lake.jpg"
 
 
 export const header_links = [
-  "Home", 
-  "Acerca de",
-  "Popular",
-  "Explorar"
+  {
+    name:"Home",
+    link: "#Home" 
+  },
+  {
+    name:"Acerca de",
+    link:"#About"
+  },
+  {
+    name:"Popular",
+    link:"#Popular"
+  },
+  {
+    name:"Explorar",
+    link:"#Explore"
+  }
 ]
 
 export const home_cards = [

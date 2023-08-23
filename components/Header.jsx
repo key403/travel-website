@@ -35,10 +35,10 @@ const Header = () => {
 
         <div ref={navMenu} className="nav__menu" id="nav-menu">
           <ul className="nav__list">
-            {header_links.map((link) => (
-              <li key={link} className="nav__item">
-                <a className="nav__link" href={`#${link}`} onClick={removeMenu}>
-                  {link}
+            {header_links.map((item) => (
+              <li key={item.name} className="nav__item">
+                <a className="nav__link" href={item.link} onClick={removeMenu}>
+                  {item.name}
                 </a>
               </li>
             ))}
