@@ -19,10 +19,10 @@ function App() {
       origin:"top",
       distance:"60px",
       duration:2000,
-      delay: 400,
+      delay: 500,
     })
     sr.reveal(".home__data, .explore__data, .explore__user, .footer__container")
-    sr.reveal(".home__card", {delay:600, interval:100})
+    sr.reveal(".home__card", {delay:200, interval:100})
     sr.reveal(".about__data, .join__image",{origin:"right"})
     sr.reveal(".about__image, .join__data", {origin:"left"})
     sr.reveal(".popular__card", {interval:200})
